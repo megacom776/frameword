@@ -1,0 +1,54 @@
+body{
+	background-image: url("../imagenes/fondo.jpg");
+	background-attachment: fixed;
+	width: 100%
+}
+
+.contenedor{
+	width: 80%;
+	background-color: rgba(141, 155, 178, 0.8);
+	margin:auto;
+}
+
+.cabecera{
+	color: white;
+}
+
+.logo{
+	width: 30%;
+}
+
+.cuerpo{
+	opacity: 0.9;
+}
+
+.button{
+	background-color: magenta;
+}
+
+.button:hover{
+	background-color: #FDE0F3;
+	color:magenta;
+}
+
+.button:visited{
+	background-color: magenta;
+}
+
+.especial{
+	color:magenta;
+}
+
+.especial:hover{
+	color:white;
+}
+
+h5{
+	color:magenta;
+}
+
+@media screen and (max-width: 480px){
+	.contenedor{
+		width: 95%;
+	}
+}

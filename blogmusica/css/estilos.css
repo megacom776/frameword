@@ -1,0 +1,68 @@
+body{
+	max-width: 90%;
+	background-color: #B10000;
+	margin: 0 auto;
+}
+
+.container-fluid{
+	background-color: white;
+}
+
+.cabeza{
+	height: 100px;
+	padding-bottom: 50px
+}
+
+.redes-sociales{
+	text-align: center;
+	margin-top: 180px;
+}
+
+.cuerpo{
+	padding-top: 20px;
+}
+
+.btn{
+	border-radius: 0%;
+	background-color: #FD8622;
+	border-color: #FD8622;
+}
+
+.btn:hover, .btn:active{
+	border-radius: 0%;
+	background-color: #B10000;
+	border-color: #B10000;
+}
+
+.artista{
+	padding-top: 2%;
+}
+
+p{
+	text-align: justify;
+}
+
+.buscar{
+	height: 50px;
+}
+
+.busqueda{
+	padding-top: 20px;
+}
+
+
+@media screen and (max-width: 480px){
+
+	.redes-sociales{
+		margin-top: 10%;
+	}
+
+	.logo{
+		text-align: center;
+	}
+
+	.comen{
+		width: 30px;
+	}
+
+}

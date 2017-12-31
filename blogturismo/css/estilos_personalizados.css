@@ -1,0 +1,16 @@
+body{
+	background-image: url("../imagenes/paisaje.jpg");
+	background-attachment: fixed;
+	width: 100%
+}
+
+.row{
+	width: 98%;
+	padding: 2px;
+}
+
+.imgdescripcion{
+	width: 300px;
+	padding-right: 10px;
+}
+
